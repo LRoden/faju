@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Soluções Turisticas</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,8 +25,8 @@
   <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-      <span class="site-heading-lower">Business Casual</span>
+            <span class="site-heading-upper text-primary mb-3">Soluções turisticas</span>
+            <span class="site-heading-lower">FAJU</span>
     </h1>
 
     <!-- Navigation -->
@@ -39,18 +39,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="index.php">Home
+                <a class="nav-link text-uppercase text-expanded" href="index.php">Início
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
+                <a class="nav-link text-uppercase text-expanded" href="about.php">Galeria</a>
             </li>
             <li class="nav-item px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="products.php">Products</a>
+                <a class="nav-link text-uppercase text-expanded" href="products.php">Roteiro</a>
             </li>
             <li class="nav-item active px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="store.php">Store</a>
+                <a class="nav-link text-uppercase text-expanded" href="store.php">Contato</a>
             </li>
           </ul>
         </div>
