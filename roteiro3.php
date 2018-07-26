@@ -21,41 +21,11 @@
 
 
     <body>
-
-        <h1 class="site-heading text-center text-white d-none d-lg-block">
-            <span class="site-heading-upper text-primary mb-3">Soluções turisticas</span>
-            <span class="site-heading-lower">FAJU</span>
-        </h1>
-
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="index.php">Início
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="about.php">Galeria</a>
-                        </li>
-                        <li class="nav-item active px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="products.php">Roteiro</a>
-                        </li>
-                        <li class="nav-item px-lg-4">
-                            <a class="nav-link text-uppercase text-expanded" href="store.php">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!--CSS da timeline-->
+        
+        
+        <?php
+        include 'cabecalho.php';
+        ?>
 
         <!-- About -->
         <section id="about">
@@ -63,7 +33,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h4 class="site-heading text-center text-white d-none d-lg-block">
-                            <span>ROTEIRO</span>
+                            <span>ROTEIRO 3</span>
                         </h4>
                     </div>
 
@@ -79,11 +49,12 @@
                                     <div class="intro-text left-0 bg-faded p-3 rounded">    
 
                                         <div class="timeline-heading">
-                                            <h4>2009-2011</h4>
-                                            <h4 class="subheading">Our Humble Beginnings</h4>
+                                            <h4>Início</h4>
+                                            <h4 class="subheading">Saída Praça dos Imigrantes (figueira)</h4>
                                         </div>
                                         <div class="timeline-body">
-                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                            <p class="text-muted">Neste local, estão edificados alguns monumentos que representam a história de Itapiranga-SC, sendo realizada a primeira missa rezada na cidade no ano de 1926. No monumento, estão os nomes dos pioneiros, uma máquina à vapor, a muda da figueira da praça 15 de Florianópolis-SC.
+O Centro Empresarial e a Associação dos Artesão de Itapiranga-SC está localizado junto às exposições históricas e a rodoviária.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -97,11 +68,11 @@
                                 <div class="timeline-panel">
                                     <div class="intro-text left-0 bg-faded p-3 rounded">    
                                         <div class="timeline-heading">
-                                            <h4>March 2011</h4>
-                                            <h4 class="subheading">An Agency is Born</h4>
+                                            <h4></h4>
+                                            <h4 class="subheading"> Igreja e Santuário em Linha Popi</h4>
                                         </div>
                                         <div class="timeline-body">
-                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                            <p class="text-muted">Esta é a única Igreja em madeira, com duas torres, edificada em enxaimel, revestida com tábuas, da América Latina.</p>
                                         </div>
                                     </div>    
                                 </div>
@@ -113,11 +84,11 @@
                                 <div class="timeline-panel">
                                     <div class="intro-text left-0 bg-faded p-3 rounded">  
                                         <div class="timeline-heading">
-                                            <h4>December 2012</h4>
-                                            <h4 class="subheading">Transition to Full Service</h4>
+                                            <h4> </h4>
+                                            <h4 class="subheading"> Arte em Pedras Kummer (La. Popi): </h4>
                                         </div>
                                         <div class="timeline-body">
-                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                            <p class="text-muted">Trabalho artesanal em pedras naturais, à venda aos turistas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,27 +100,64 @@
                                 <div class="timeline-panel">
                                     <div class="intro-text left-0 bg-faded p-3 rounded">
                                         <div class="timeline-heading">
-                                            <h4>July 2014</h4>
-                                            <h4 class="subheading">Phase Two Expansion</h4>
+                                            <h4></h4>
+                                            <h4 class="subheading"> Viveiro de Pássaros Reis (La. Soledade)</h4>
                                         </div>
                                         <div class="timeline-body">
-                                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                            <p class="text-muted">Possui variedade de mais de 40 espécies de pássaros com diversos tamanhos, para exposição e venda.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="intro-text left-0 bg-faded p-3 rounded">  
+                                        <div class="timeline-heading">
+                                            <h4> </h4>
+                                            <h4 class="subheading"> Propriedade Stoffel - Trilha e Almoço (La. Sta. Isabel) </h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Área de lazer com trilha para apreciação de  árvores antigas. São servidas refeições, como almoço, janta ou lanche.</p>
                                         </div>
                                     </div>
                                 </div>
                             </li>
                             <li class="timeline-inverted">
                                 <div class="timeline-image">
-                                    <h4>Be Part
-                                        <br>Of Our
-                                        <br>Story!</h4>
+                                    <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="intro-text left-0 bg-faded p-3 rounded">
+                                        <div class="timeline-heading">
+                                            <h4></h4>
+                                            <h4 class="subheading"> Recanto Goergen - Peixe Frito ou Café Colonial (La. Popi)</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">Área de lazer para descanso em meio à natureza, com excelente espaço para diversão e cabanas para estadia noturna.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <h4> Retorno 
+                                        <br>até a figueira -
+                                        <br> Praça!</h4>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
+        
+        <?php
+        include 'rodape.php';
+        ?>       
 
 
     </body>
