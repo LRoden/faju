@@ -1,27 +1,27 @@
-<div  align="center">
-    <img src="img/FAJUdefinida1.png" width="500">
+<div align="center"  width="375">
+    <img  src="img/FAJUdefinida1.png" width="370" > 
 </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Menu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="index.php"> Início</a>
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="index.php?url=inicial"> Início</a>
             </li>
             <li class="nav-item px-lg-4">
-               <a  class="nav-link text-uppercase text-expanded" href="galeria.php">Galeria</a>
+               <a  class="nav-link text-uppercase text-expanded" href="index.php?url=galeria">Galeria</a>
             </li>
             <li class="nav-item px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="roteiros.php">Roteiro</a>
+                <a class="nav-link text-uppercase text-expanded" href="index.php?url=roteiros">Roteiros</a>
             </li>
             
             <li class="nav-item px-lg-4">
-                <a class="nav-link text-uppercase text-expanded" href="contato.php">Contato</a>
+                <a class="nav-link text-uppercase text-expanded" href="index.php?url=contato">Contato</a>
             </li>
           </ul>
         </div>

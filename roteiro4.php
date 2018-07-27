@@ -2,13 +2,6 @@
 <html lang="en">
 
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <title>Soluções Turisticas</title>
-        <!-- Bootstrap core CSS -->
         <link href="css/agency.min.css" rel="stylesheet">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom fonts for this template -->
@@ -22,13 +15,8 @@
 
     <body>
 
-        
-        <?php
-        include 'cabecalho.php';
-        ?>
-
         <!-- About -->
-        <section id="about">
+        <sectionrot id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -153,12 +141,7 @@ O Centro Empresarial e a Associação dos Artesão de Itapiranga-SC está locali
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <?php
-        include 'rodape.php';
-        ?>
-
+        </sectionrot>     
 
     </body>
 
