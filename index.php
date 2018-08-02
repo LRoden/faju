@@ -26,6 +26,7 @@
         $url=$_GET['url'];
         switch ($url){
             case 'inicio': include('inicial.php'); break;
+            case 'empresa': include('empresa.php'); break;
             case 'galeria': include('galeria.php'); break;
             case 'roteiros': include('roteiros.php'); break;
             case 'rot1': include('roteiro1.php'); break;
