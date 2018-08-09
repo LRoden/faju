@@ -1,5 +1,5 @@
 <div align="center"  width="375">
-    <img  src="img/FAJUdefinida1.png" width="370" > 
+    <img  src="img/nova1.png" width="370" > 
 </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">

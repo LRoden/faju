@@ -1,8 +1,8 @@
 <section class="page-section clearfix">
       <div class="container">
         <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded"><br>
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/img4.jpg" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Informações da</span>
               <span class="section-heading-lower">Empresa</span>
@@ -38,4 +38,3 @@
       </div>
     </section>
 <br><br><br><br>
-
