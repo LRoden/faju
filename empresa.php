@@ -1,6 +1,6 @@
 <br><br><br>
-<div class="intro-text left-0 text-center bg-faded p-5 rounded" width="70">
-            <h2 class="section-heading mb-4">
+<div class="intro-text left-0 text-center bg-faded p-5 rounded col-md-4 col-sm-4" data-wow-delay="0.3s">
+    <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Informações da</span>
               <span class="section-heading-uper">Empresa</span>
             </h2>
@@ -9,8 +9,10 @@ Os passeios são elaborados para grupos, sendo o número mínimo entre 15 e 20 p
 Vale ressaltar ainda que toda organização ficará sempre sob responsabilidade de profissional qualificado.
 
             </p>
-            <br><br>
-            <h2 class="section-heading mb-4">
+</div>
+<br><br><br>
+<div class="intro-text left-0 text-center bg-faded p-5 rounded col-md-4 col-sm-4" data-wow-delay="0.3s">
+    <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Sobre a</span>
               <span class="section-heading-uper">Empresa</span>
             </h2>
@@ -19,8 +21,10 @@ A empresa está focada no turismo receptivo, fazendo toda a organização do pas
 FAJU preza sempre pelo bom atendimento com um serviço de qualidade, buscando sempre atender as expectativas dos turistas. 
 
             </p>
-            <br><br>
-            <h2 class="section-heading mb-4">
+                </div>
+<br><br><br>
+<div class="intro-text left-0 text-center bg-faded p-5 rounded col-md-4 col-sm-4" data-wow-delay="0.3s">
+    <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Sobre a</span>
               <span class="section-heading-uper">Proprietária</span>
             </h2>
@@ -29,4 +33,5 @@ FAJU preza sempre pelo bom atendimento com um serviço de qualidade, buscando se
  
 
             </p>
-</div><br><br><br>
+                </div>
+<br><br><br><br>
