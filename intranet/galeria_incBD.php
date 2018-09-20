@@ -8,8 +8,6 @@ $uploadfile = $diretorio_img . basename($_FILES['imagem']['name']);
 $caminho = $_FILES['imagem']['name'];
 move_uploaded_file($_FILES['imagem']['tmp_name'], $uploadfile);
 
-
-
 //passar dados do form par variaveis
 $nome = $_POST ['nome'];
 $descricao = $_POST ['descricao'];

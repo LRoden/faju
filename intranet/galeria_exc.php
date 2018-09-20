@@ -7,12 +7,12 @@ $cod = $_GET['id'];
 
 //Instrucao sql
 
-$sql = "Delete from frota where frota_id = $cod;";
+$sql = "Delete from galeria where id = $cod;";
 
 //executa
 
 if($mysqli->query($sql)){
-    header('location: index.php?url=fro');
+    header('location: index.php?url=gal');
     exit;
 }else{
     echo ("Erro: %s\n".$mysqli->error);
