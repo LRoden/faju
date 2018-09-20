@@ -3,10 +3,12 @@
 //conectar ao banco
 include("../conexao.php");
 
-$diretorio_img = "/upload/galeria/";
-$uploadfile = $diretorio_img . basename($_FILES['caminho']['name']);
-$caminho = $_FILES['caminho']['name'];
-move_uploaded_file($_FILES['caminho']['tmp_name'], $uploadfile);
+$diretorio_img = "../upload/galeria/";
+$uploadfile = $diretorio_img . basename($_FILES['imagem']['name']);
+$caminho = $_FILES['imagem']['name'];
+move_uploaded_file($_FILES['imagem']['tmp_name'], $uploadfile);
+
+
 
 //passar dados do form par variaveis
 $nome = $_POST ['nome'];

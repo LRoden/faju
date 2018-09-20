@@ -5,7 +5,7 @@
     <table  align="center" width="70%">   
         <tbody>
             <tr>
-                <td align="right">NOme:</td>
+                <td align="right">Nome:</td>
                 <td><input type="text" name="nome" value=" " required/></td>
             </tr>
             <tr>
@@ -14,8 +14,8 @@
             
             </tr> 
             <tr>
-                <td align="right">Imagem do Título:</td>
-                <td><input type="file" name="caminho" required/></td>
+                <td align="right">Imagem:</td>
+                <td><input type="file" name="imagem" required/></td>
             </tr>
             <tr>
                 <td></td>
