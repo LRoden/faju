@@ -17,6 +17,8 @@
     <link href="css/agency.min.css" rel="stylesheet">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/business-casual.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   </head>
 
   <body>
@@ -28,6 +30,12 @@
             case 'inicio': include('inicial.php'); break;
             case 'empresa': include('empresa.php'); break;
             case 'galeria': include('galeria.php'); break;
+            case 'gal1': include('gal1.php'); break;
+            case 'gal2': include('gal2.php'); break;
+            case 'gal3': include('gal3.php'); break;
+            case 'gal4': include('gal4.php'); break;
+            case 'gal5': include('gal5.php'); break;
+            case 'gal6': include('gal6.php'); break;
             case 'roteiros': include('roteiros.php'); break;
             case 'rot1': include('roteiro1.php'); break;
             case 'rot2': include('roteiro2.php'); break;
@@ -41,6 +49,9 @@
         
         include 'rodape.php';
     ?>
+      <div class="scrollup" >
+          <a href="#top"><i class="fas fa-chevron-circle-up fa-2x" width="100%" ></i></a>
+      </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

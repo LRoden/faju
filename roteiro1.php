@@ -21,8 +21,10 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h4 class="site-heading text-center text-white d-none d-lg-block">
-                            <span>ROTEIRO 1</span>
+                            <div class="esquerda"><a href="index.php?url=roteiros"><img  src="img/setavoltar.png" width="40px"></img>Voltar</a></div>
+                            <span>ROTEIRO CAMPONÊS</span>
                         </h4>
+                        
                     </div>
 
                 </div>
@@ -31,7 +33,7 @@
                         <ul class="timeline">
                             <li>
                                 <div class="timeline-image">
-                                    <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                                    <img class="rounded-circle img-fluid" src="img/fotos_roteiros/citytour/figueira.jpg" >
                                 </div>
                                 <div class="timeline-panel">                           
                                     <div class="intro-text left-0 bg-faded p-3 rounded">    

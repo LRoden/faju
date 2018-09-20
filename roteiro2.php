@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h4 class="site-heading text-center text-white d-none d-lg-block">
-                            <span>ROTEIRO 2</span>
+                            <span>ROTEIRO DO CONVÍVIO</span>
                         </h4>
                     </div>
 
