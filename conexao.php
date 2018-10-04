@@ -1,9 +1,9 @@
 ﻿<?php
 //paramentros de configuração
-$host = 'localhost';//Ip do servidor MySQL
-$base = 'faju';
-$usuario = 'root';
-$senha = '1234';
+$host = 'localhost';//Ip do servidor MySQL  http://mysql.fajuturismo.com.br/
+$base = 'faju'; // fajuturismo
+$usuario = 'root';// fajuturism_add1
+$senha = '1234'; //FAJUturismo2018
 
 //Conexao ao BD
 

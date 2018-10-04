@@ -27,7 +27,7 @@
             
             </tr>
             <tr>
-                <td align="right">Nome:</td>
+                <td align="right">Localização:</td>
                 <td><input type="text" name="localizacao" value="<?=$localizacao;?>" required/></td>
             </tr> 
             <tr>
