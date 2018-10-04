@@ -29,23 +29,21 @@ include_once('sessao.php');
                 <td align="right">Parada:</td>
                 <td>
                     <?php
-                    include '../conexao.php';                    
+                    include '../conexao.php';
                     $sql = "SELECT * FROM parada;";
+
+
                     $query = $mysqli->query($sql);
-                    $row = mysqli_num_rows($query);
+
                     ?>
-                   
-                    <!-- Select Basic -->
-                            <select id="id" name="nome[]" class="form-control">
-                                <option value="nome[]x" selected="selected">
-                                <?php print_r($row);
-                                include '../conexao.php';                                 
-                                while ($row2 = mysql_fetch_assoc($row)) {
-                                    echo "<option value=$row2[id]>$row2[nome]</option>";
-                                    print_r($row);
-                                }
-                                ?></option>
-                            </select>
+                    
+                    <select name="estado" id="estado" required>
+                        <option value="">Selecione</option>
+                        <?php foreach ($query as $parada) { ?>
+                            <option value="<?php echo $parada['id'] ?>"><?php echo $parada['nome'] ?></option>
+                        <?php } ?>
+                    </select>
+
                 </td>
             </tr>
             <tr>
