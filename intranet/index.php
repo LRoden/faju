@@ -49,15 +49,13 @@ include_once('sessao.php');
                                         break;
                                     case 'emp': echo 'Empresa';
                                         break;
-                                    case 'gal': echo 'Galeria';
-                                        break;
                                     case 'rot': echo 'Roteiros';
                                         break;
                                     case 'con': echo 'Contato';
                                         break;
                                     case 'usu': echo 'Usuarios';
                                         break;
-                                    case 'emp_alt': echo 'Alterar dados da Empresa';
+                                    case 'qm_alt': echo 'Alterar dados da Empresa';
                                         break;
                                     case 'gal_inc': echo 'Incluir dados das Galeira';
                                         break;
@@ -91,9 +89,7 @@ include_once('sessao.php');
 
                                 case 'ini': include('inicial.php');
                                     break;
-                                case 'emp': include('empresa.php');
-                                    break;
-                                case 'emp_alt': include('empresa_alt.php');
+                                case 'qm_alt': include('qm_alt.php');
                                     break;
                                 case 'gal': include('galeria.php');
                                     break;
@@ -101,11 +97,17 @@ include_once('sessao.php');
                                     break;
                                 case 'gal_alt': include('galeria_alt.php');
                                     break;
-                                case 'rot': include('roteiros.php');
+                                case 'rot': include('roteiro.php');
                                     break;
-                                case 'rot_inc': include('roteiros_inc.php');
+                                case 'rot_inc': include('roteiro_inc.php');
                                     break;
-                                case 'rot_alt': include('roteiros_alt.php');
+                                case 'rot_alt': include('roteiro_alt.php');
+                                    break;
+                                case 'lug': include('lugares.php');
+                                    break;
+                                case 'lug_inc': include('lugares_inc.php');
+                                    break;
+                                case 'lug_alt': include('lugares_alt.php');
                                     break;
                                 case 'con': include('contato.php');
                                     break;
@@ -139,20 +141,10 @@ include_once('sessao.php');
                         </header>
                         <ul class="contact">
                             <li><a href="?url=ini"> <i class="fas fa-home"></i> Home</a></li>
-                            <li><a href="?url=#"> <i class="fas fa-archway"></i> Empresa</a></li> 
-                            <li><a href="?url=gal"> <i class="fas fa-bus"></i> Galeria</a></li>
+                            <li><a href="?url=qm_alt"> <i class="fas fa-archway"></i> Empresa</a></li> 
+                            <li><a href="?url=gal"> <i class="fas fa-images"></i> Fotos</a></li>
                             <li><a href="?url=lug"> <i class="fas fa-bus"></i> Lugares</a></li>
-                            <li>
-                            <span class="opener"><i class="fas fa-bus"></i> Roteiros</span>
-                            <ul>
-                                <li><a href="#">Roteiro 1</a></li>
-                                <li><a href="#">Roteiro 2</a></li>
-                                <li><a href="#">Roteiro 3</a></li>
-                                <li><a href="#">Roteiro 4</a></li>
-                                <li><a href="#">Roteiro 5</a></li>
-                                <li><a href="#">Roteiro 5</a></li>
-                            </ul>
-                            </li>                       
+                            <li> <a href="?url=rot"> <i class="fas fa-clipboard-list"></i> Roteiros</a></li>                    
                             <li><a href="?url=#"> <i class="fas fa-phone"></i> Contato</a></li>
                             <li><a href="?url=usu"> <i class="fas fa-user-tie"></i> Usuários</a></li>
                         </ul>
