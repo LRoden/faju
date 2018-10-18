@@ -5,6 +5,7 @@ include("../conexao.php");
 
 $nome = $_POST ['nome'];
 $descricao = $_POST ['descricao'];
+$lugar = $_POST ['lugar'];
 
 $id = $_GET['id'];
 
@@ -20,14 +21,16 @@ if ($_FILES['imagem']['name'] != null) {
     $sql = "Update galeria set        
         nome = '$nome',
         descricao = '$descricao',
-        caminho = '$caminho'  
+        caminho = '$caminho',
+        lugares_id = '$lugar'    
         where id= $id;";
 } else {
 
     //enviar dados
     $sql = "Update galeria set        
         nome = '$nome',
-        descricao = '$descricao'
+        descricao = '$descricao',
+        lugares_id = '$lugar'  
          where id= $id;";
 }
 

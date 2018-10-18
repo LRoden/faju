@@ -10,7 +10,6 @@
             <th>Descrição</th>
             <th>Localização</th>
             <th>Foto Principal</th>
-            <th>Parada</th>
         </tr>
     </thead>
     <tbody>
@@ -26,7 +25,6 @@
                 $descricao = $dados ['descricao'];
                 $localizacao = $dados ['localizacao'];
                 $foto_principal = $dados ['foto_principal'];
-                $parada_id = $dados ['parada_id'];
         ?>  
         <tr>
             <td class="col1"> <a href="index.php?url=lug_alt&id=<?=$cod; ?>"><img src="img/editar.png" width="30px" title="Editar"></a> <a href="lugares_exc.php?id=<?=$cod; ?>"onclick="return excluir('<?=$nome;?>');"><img src="img/excluir.png" width="35px" title="Exluir"></a></td>
@@ -35,7 +33,6 @@
             <td class="col4"><?= $descricao; ?></td>
             <td class="col4"><?= $localizacao; ?></td>
             <td class="col5"><img src="../upload/lugar/<?= $foto_principal; ?>" width="250"/>
-            <td class="col6"><?= $parada_id; ?></td>
                  
         </tr>
         <?php

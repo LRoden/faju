@@ -18,7 +18,7 @@ include_once('sessao.php');
         <title>Admin-<?= $empresa_nome; ?></title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel = "icon" type = "imagem/x-icon" href = "../assets/images/favicon.ico"/>
+        <link rel = "icon" type = "imagem/x-icon" href = "img/favicon.ico"/>
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -109,11 +109,11 @@ include_once('sessao.php');
                                     break;
                                 case 'lug_alt': include('lugares_alt.php');
                                     break;
-                                case 'con': include('contato.php');
+                                case 'rot_lug': include('roteiro_lugares.php');
                                     break;
-                                case 'con_inc': include('contato_inc.php');
+                                case 'rot_lug_inc': include('roteiro_lugares_inc.php');
                                     break;
-                                case 'con_alt': include('contato_alt.php');
+                                case 'rot_lug_alt': include('roteiro_lugares_alt.php');
                                     break;
                                 case 'usu': include('usuario.php');
                                     break;
@@ -145,7 +145,7 @@ include_once('sessao.php');
                             <li><a href="?url=gal"> <i class="fas fa-images"></i> Fotos</a></li>
                             <li><a href="?url=lug"> <i class="fas fa-bus"></i> Lugares</a></li>
                             <li> <a href="?url=rot"> <i class="fas fa-clipboard-list"></i> Roteiros</a></li>                    
-                            <li><a href="?url=#"> <i class="fas fa-phone"></i> Contato</a></li>
+                            <li><a href="?url=rot_lug"> <i class="fas fa-map-marked-alt"></i> Definir roteiros</a></li>
                             <li><a href="?url=usu"> <i class="fas fa-user-tie"></i> Usuários</a></li>
                         </ul>
                     </nav>

@@ -11,8 +11,9 @@ move_uploaded_file($_FILES['imagem']['tmp_name'], $uploadfile);
 //passar dados do form par variaveis
 $nome = $_POST ['nome'];
 $descricao = $_POST ['descricao'];
-$sql = "Insert into galeria (nome, descricao, caminho)"
-        . "values('$nome', '$descricao', '$caminho');";
+$lugar_id = $_POST ['lugar_id'];
+$sql = "Insert into galeria (nome, descricao, caminho, lugares_id)"
+        . "values('$nome', '$descricao', '$caminho', '$lugar_id');";
 //enviar dados
 
     echo $sql;

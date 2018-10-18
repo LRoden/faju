@@ -18,6 +18,27 @@
                 <td><input type="file" name="imagem" required/></td>
             </tr>
             <tr>
+                <td align="right">Lugar:</td>
+                <td>
+                    <?php
+                    include '../conexao.php';
+                    $sql = "SELECT * FROM lugares;";
+
+
+                    $query = $mysqli->query($sql);
+
+                    ?>
+                    
+                    <select name="lugar_id" id="lugar_id" required>
+                        <option value="">Selecione</option>
+                        <?php foreach ($query as $lugar) { ?>
+                            <option value="<?php echo $lugar['id'] ?>"><?php echo $lugar['nome'] ?></option>
+                        <?php } ?>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
                 <td></td>
                 <td align="right"><input type="submit" value="SALVAR"/></td>
             </tr>
