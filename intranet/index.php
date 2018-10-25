@@ -11,7 +11,7 @@ include_once('sessao.php');
     ;
     $query = $mysqli->query($sql);
     $dados = $query->fetch_array();
-    $cod = $dados ['empresa_id'];
+    //$cod = $dados ['empresa_id'];
     $empresa_nome = $dados ['nome'];
     ?> 
     <head>

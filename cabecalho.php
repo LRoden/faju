@@ -1,6 +1,6 @@
 <br>
-<div align="center"  width="430">
-    <img  src="img/FAJU123.png" width="400" margin="0 auto;" > 
+<div class="col-md-12" align="center"  width="430">
+    <img  src="img/FAJU123.png" width="350" margin="0 auto;" max-width="100%;" height="auto"> 
 </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">

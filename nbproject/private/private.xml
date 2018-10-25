@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/xampp/htdocs/faju/cabecalho.php</file>
+            <file>file:/C:/xampp/htdocs/faju/intranet/lugares_inc.php</file>
+            <file>file:/C:/xampp/htdocs/faju/conexao.php</file>
+            <file>file:/C:/xampp/htdocs/faju/index.php</file>
+        </group>
     </open-files>
 </project-private>
