@@ -6,6 +6,7 @@
     $sql= "Select * from imagens";
     $query =$mysqli->query($sql);
     $dados = $query->fetch_array();
+        $id = $dados ['imagem_id'];
         $imagem_fundo = $dados ['imagem_fundo'];
         $imagem_inicio = $dados ['imagem_inicio'];
         $imagem_logo = $dados ['imagem_logo'];
@@ -16,22 +17,24 @@
         <tbody>
             <tr>
                 <td align="right">Imagem do fundo:</td>
-                <td><input type="text" name="imagem_fundo" value="<?=$imagem_fundo;?>" required/></td>
+                <td><img src="../upload/galeria/<?=$imagem_fundo;?>" width="250"/></td>
+                <td><input type="file" name="imagem_fundo" value"<?=$imagem_fundo;?>" /></td>
             </tr>
             <tr>
-                <td align="right">Imagem de Início:</td>
-                 <td><textarea type="text" align="justify" name="imagem_inicio"  rows='8' cols = '60'><?=$imagem_inicio;?> </textarea></td>
-            
-            </tr> 
+                <td align="right">Imagem do Início:</td>
+                <td><img src="../upload/galeria/<?=$imagem_inicio;?>" width="250"/></td>
+                <td><input type="file" name="imagem_inicio" /></td>
+            </tr>
             <tr>
                 <td align="right">Logo:</td>
-                <td><input type="text" name="imagem_logo" value="<?=$imagem_logo;?>" required/></td>
+                <td><img src="../upload/galeria/<?=$imagem_logo;?>" width="250"/></td>
+                <td><input type="file" name="imagem_logo" /></td>
             </tr>
             <tr>
-                <td align="right">Imagem Contato:</td>
-                 <td><textarea type="text" align="justify" name="imagem_contato"  rows='8' cols = '60'><?=$imagem_contato;?> </textarea></td>
-            
-            </tr> 
+                <td align="right">Imagem do Contato:</td>
+                <td><img src="../upload/galeria/<?=$imagem_contato;?>" width="250"/></td>
+                <td><input type="file" name="imagem_contato" /></td>
+            </tr>
             <tr>
                 <td></td>
                 <td align="right"><input type="submit" value="SALVAR"/></td>

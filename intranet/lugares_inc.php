@@ -2,7 +2,7 @@
 include_once('sessao.php');
 ?> 
 
-<form name="cadastro" action="lugares_incBD.php?id=<?=$id;?>" method="POST" enctype="multipart/form-data">
+<form name="cadastro" action="lugares_incBD.php" method="POST" enctype="multipart/form-data">
     <table  align="center" width="70%">   
 
         <tbody>
