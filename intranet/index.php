@@ -55,16 +55,30 @@ include_once('sessao.php');
                                         break;
                                     case 'usu': echo 'Usuarios';
                                         break;
+                                    case 'gal': echo 'Fotos';
+                                        break;
+                                    case 'lug': echo 'Lugares';
+                                        break;
+                                    case 'rot_lug': echo 'Definir Roteiros';
+                                        break;
                                     case 'qm_alt': echo 'Alterar dados da Empresa';
                                         break;
-                                    case 'gal_inc': echo 'Incluir dados das Galeira';
+                                    case 'gal_inc': echo 'Incluir dados das Fotos';
                                         break;
-                                    case 'gal_alt': echo 'Alterar dados das Galeira';
+                                    case 'gal_alt': echo 'Alterar dados das Fotos';
+                                        break;
+                                    case 'lug_inc': echo 'Incluir dados dos Lugares';
+                                        break;
+                                    case 'lug_alt': echo 'Alterar dados dos Lugares';
                                         break;
                                     case 'rot_inc': echo 'Incluir dados dos Roteiros';
                                         break;
                                     case 'rot_alt': echo 'Alterar dados dos Roteiros';
-                                        break;                                        
+                                        break;
+                                    case 'rot_lug_inc': echo 'Incluir dados das Definir Roteiros';
+                                        break;
+                                    case 'rot_lug_alt': echo 'Alterar dados das Definir Roteiros';
+                                        break;                                          
                                     case 'con_alt': echo 'Alterar dados dos Contato';
                                         break;
                                     case 'usu_inc': echo 'Incluir dados dos Usuarios';
@@ -144,8 +158,10 @@ include_once('sessao.php');
                             <li><a href="?url=qm_alt"> <i class="fas fa-archway"></i> Empresa</a></li> 
                             <li><a href="?url=gal"> <i class="fas fa-images"></i> Fotos</a></li>
                             <li><a href="?url=lug"> <i class="fas fa-bus"></i> Lugares</a></li>
-                            <li> <a href="?url=rot"> <i class="fas fa-clipboard-list"></i> Roteiros</a></li>                    
+                            <li> <a href="?url=rot"> <i class="fas fa-clipboard-list"></i> Roteiros</a></li>
                             <li><a href="?url=rot_lug"> <i class="fas fa-map-marked-alt"></i> Definir roteiros</a></li>
+                            <li><a href="?url=con"> <i class="fas fa-phone"></i> Contatos</a></li>
+                            <li><a href="?url=img"> <i class="fas fa-images"></i> Imagens do Site</a></li>
                             <li><a href="?url=usu"> <i class="fas fa-user-tie"></i> Usuários</a></li>
                         </ul>
                     </nav>
@@ -155,7 +171,7 @@ include_once('sessao.php');
                         <p class="alinke"><a href="../index.php" ><input class="alink" type="submit" value="VOLTAR AO SITE"/></a></p>
                         <p class="alinkd"><a href="logoff.php"><input type="submit" value=" SAIR DO ADMIN"/></a></p>
                         <hr>
-                        <p class="copyright">&copy; <?= $empresa_nome; ?>. All rights reserved.</p>
+                        <p class="copyright">&copy; UCEFF Premium Consultoria - 2018.</p>
                     </footer>
                 </div>
             </div>

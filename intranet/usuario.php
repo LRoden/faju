@@ -23,7 +23,7 @@
             $login = $dados['login'];
             ?>  
             <tr>
-                <td class="col1"> <a href="index.php?url=usu_alt&id=<?= $cod; ?>"><img src="img/editar.png" width="30px" title="Editar"></a><a href="usu_exc.php?id=<?=$cod; ?>"onclick="return excluir('<?=$nome;?>');"><img src="img/excluir.png" width="35px" title="Exluir"></a></td>
+                <td class="col1"> <a href="index.php?url=usu_alt&id=<?= $cod; ?>"><img src="img/editar.png" width="30px" title="Editar"></a><a href="usuario_exc.php?id=<?=$cod; ?>"onclick="return excluir('<?=$nome;?>');"><img src="img/excluir.png" width="35px" title="Exluir"></a></td>
                 <td class="col2"><?= $cod; ?></td>
                 <td class="col3"><?= $nome; ?></td>
                 <td class="col4"><?= $login; ?></td>
