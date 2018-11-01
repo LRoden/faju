@@ -17,22 +17,22 @@
         <tbody>
             <tr>
                 <td align="right">Imagem do fundo:</td>
-                <td><img src="../upload/galeria/<?=$imagem_fundo;?>" width="250"/></td>
+                <td><img src="../upload/imagem/<?=$imagem_fundo;?>" width="250"/></td>
                 <td><input type="file" name="imagem_fundo" value"<?=$imagem_fundo;?>" /></td>
             </tr>
             <tr>
                 <td align="right">Imagem do Início:</td>
-                <td><img src="../upload/galeria/<?=$imagem_inicio;?>" width="250"/></td>
+                <td><img src="../upload/imagem/<?=$imagem_inicio;?>" width="250"/></td>
                 <td><input type="file" name="imagem_inicio" /></td>
             </tr>
             <tr>
                 <td align="right">Logo:</td>
-                <td><img src="../upload/galeria/<?=$imagem_logo;?>" width="250"/></td>
+                <td><img src="../upload/imagem/<?=$imagem_logo;?>" width="250"/></td>
                 <td><input type="file" name="imagem_logo" /></td>
             </tr>
             <tr>
                 <td align="right">Imagem do Contato:</td>
-                <td><img src="../upload/galeria/<?=$imagem_contato;?>" width="250"/></td>
+                <td><img src="../upload/imagem/<?=$imagem_contato;?>" width="250"/></td>
                 <td><input type="file" name="imagem_contato" /></td>
             </tr>
             <tr>

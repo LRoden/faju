@@ -20,6 +20,19 @@
         <link href="css/business-casual.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+   <?php
+    include 'conexao.php';
+
+    $sql1 = "Select imagem_fundo from imagens";
+    $query = $mysqli->query($sql1);
+    $dados = $query->fetch_array();
+        $imagem_fundo = $dados['imagem_fundo'];                
+?>   
+<style type="text/css">
+    body {
+    background-image: url(upload/imagem/<?= $imagem_fundo; ?>);
+    }
+</style>
   </head>
 
   <body>
