@@ -1,6 +1,25 @@
+  <?php
+    include 'conexao.php';
+
+    $sql = "Select * from contato";
+    $query = $mysqli->query($sql);
+    $dados = $query->fetch_array();
+      $telefone = $dados['telefone'];
+      $celular_1 = $dados['celular_1'];
+      $celular_2 = $dados['celular_2'];
+      $email = $dados['email'];
+      $endereco = $dados['endereco'];
+
+    $sql1 = "Select imagem_contato from imagens";
+    $query = $mysqli->query($sql1);
+    $dados = $query->fetch_array();
+      $imagem_contato = $dados['imagem_contato'];
+
+    
+    ?> 
     <section class="page-section about-heading">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/img3.jpg" alt="">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="upload/imagem/<?= $imagem_contato; ?>" alt="">
         <div class="about-heading-content">
           <div class="row">
             <div class="col-xl-9 col-lg-10 mx-auto">
@@ -18,18 +37,7 @@
       </div>
     </section>
 
-<?php
-    include 'conexao.php';
-
-    $sql = "Select * from contato";
-    $query = $mysqli->query($sql);
-    $dados = $query->fetch_array();
-      $telefone = $dados['telefone'];
-      $celular_1 = $dados['celular_1'];
-      $celular_2 = $dados['celular_2'];
-      $email = $dados['email'];
-      $endereco = $dados['endereco'];
-    ?>  
+ 
                             
 <section class="page-section cta">
       <div class="container">
