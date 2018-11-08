@@ -59,31 +59,33 @@ include_once('sessao.php');
                                         break;
                                     case 'lug': echo 'Lugares';
                                         break;
+                                    case 'img': echo 'Definir Imagens';
+                                        break;
                                     case 'rot_lug': echo 'Definir Roteiros';
                                         break;
-                                    case 'qm_alt': echo 'Alterar dados da Empresa';
+                                    case 'qm_alt': echo 'Alterar dados: Empresa';
                                         break;
-                                    case 'gal_inc': echo 'Incluir dados das Fotos';
+                                    case 'gal_inc': echo 'Incluir dados: Fotos';
                                         break;
-                                    case 'gal_alt': echo 'Alterar dados das Fotos';
+                                    case 'gal_alt': echo 'Alterar dados: Fotos';
                                         break;
-                                    case 'lug_inc': echo 'Incluir dados dos Lugares';
+                                    case 'lug_inc': echo 'Incluir dados: Lugares';
                                         break;
-                                    case 'lug_alt': echo 'Alterar dados dos Lugares';
+                                    case 'lug_alt': echo 'Alterar dados: Lugares';
                                         break;
-                                    case 'rot_inc': echo 'Incluir dados dos Roteiros';
+                                    case 'rot_inc': echo 'Incluir dados: Roteiros';
                                         break;
-                                    case 'rot_alt': echo 'Alterar dados dos Roteiros';
+                                    case 'rot_alt': echo 'Alterar dados: Roteiros';
                                         break;
-                                    case 'rot_lug_inc': echo 'Incluir dados das Definir Roteiros';
+                                    case 'rot_lug_inc': echo 'Incluir dados: Definir Roteiros';
                                         break;
-                                    case 'rot_lug_alt': echo 'Alterar dados das Definir Roteiros';
+                                    case 'rot_lug_alt': echo 'Alterar dados: Definir Roteiros';
                                         break;                                          
-                                    case 'con_alt': echo 'Alterar dados dos Contato';
+                                    case 'con_alt': echo 'Alterar dados: Contato';
                                         break;
-                                    case 'usu_inc': echo 'Incluir dados dos Usuarios';
+                                    case 'usu_inc': echo 'Incluir dados: Usuarios';
                                         break;
-                                    case 'usu_alt': echo 'Alterar dados dos Usuarios';
+                                    case 'usu_alt': echo 'Alterar dados: Usuarios';
                                         break;
                                     default: echo 'Home';
                                         break;
@@ -172,7 +174,7 @@ include_once('sessao.php');
                             <li> <a href="?url=rot"> <i class="fas fa-clipboard-list"></i> Roteiros</a></li>
                             <li><a href="?url=rot_lug"> <i class="fas fa-map-marked-alt"></i> Definir roteiros</a></li>
                             <li><a href="?url=con"> <i class="fas fa-phone"></i> Contatos</a></li>
-                            <li><a href="?url=img"> <i class="fas fa-images"></i> Imagens do Site</a></li>
+                            <li><a href="?url=img"> <i class="far fa-images"></i> Imagens do Site</a></li>
                             <li><a href="?url=usu"> <i class="fas fa-user-tie"></i> Usuários</a></li>
                         </ul>
                     </nav>
