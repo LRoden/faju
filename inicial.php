@@ -1,7 +1,24 @@
+<?php
+    include 'conexao.php';
+
+    $sql = "Select * from empresa";
+    $query = $mysqli->query($sql);
+    $dados = $query->fetch_array();
+      $missao = $dados['missao'];
+      $visao = $dados['visao'];
+      $valores = $dados['valor'];
+
+      $sql1 = "Select imagem_inicio from imagens";
+    $query = $mysqli->query($sql1);
+    $dados = $query->fetch_array();
+      $imagem_inicio = $dados['imagem_inicio'];
+
+    ?> 
+
 <section class="page-section clearfix">
     <div class="container">
         <div class="intro">
-            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/234.jpg" alt="">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="upload/imagem/<?= $imagem_inicio; ?>" alt="">
             <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                 <h2 class="section-heading mb-4">
                     <span class="section-heading-upper">Informações da</span>
@@ -26,7 +43,7 @@
                     <h2 class="section-heading mb-3">
                         <span class="section-heading-uper">MISSÃO</span>
                     </h2>
-                    <p>Atuar com excelência no serviço de atendimento aos turistas e visitantes, garantindo a criação e geração de renda aos atrativos e comunidade, promovendo a satisfação total dos clientes e a sustentabilidade do negócio.</p>
+                    <p><?= $missao; ?></p>
 
                 </div>
 
@@ -42,7 +59,7 @@
 
                         <span class="section-heading-uper">VISÃO</span>
                     </h2>
-                    <p>Ser reconhecida pela prestação de serviços com eficácia no segmento do turismo, proporcionando experiências únicas, satisfazendo os anseios dos clientes.</p>
+                    <p><?= $visao; ?></p>
 
                 </div>
 
@@ -58,11 +75,7 @@
                     <h2 class="section-heading mb-3">
                         <span class="section-heading-uper">VALORES</span>
                     </h2>
-                    <p>- Ética<br>
-                        - Competência<br>
-                        - Seriedade<br>
-                        - Comprometimento
-                    </p>
+                    <p><?= $valores; ?></p>
                 </div>
 
             </div>

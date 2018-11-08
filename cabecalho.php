@@ -1,6 +1,21 @@
+<?php
+    include 'conexao.php';
+
+    $sql1 = "Select imagem_logo from imagens";
+    $query = $mysqli->query($sql1);
+    $dados = $query->fetch_array();
+      $imagem_logo = $dados['imagem_logo'];
+
+    
+    ?> 
 <br>
+<<<<<<< HEAD
 <div class="col-md-12" align="center"  width="430">
     <img  src="img/FAJU123.png" width="350" margin="0 auto;" max-width="100%;" height="auto"> 
+=======
+<div align="center"  width="430">
+    <img  src="upload/imagem/<?= $imagem_logo; ?>" width="400" margin="0 auto;" > 
+>>>>>>> fe428aa86218b22874b7c30676014254dd4f2011
 </div>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">

@@ -2,7 +2,7 @@
 include_once('sessao.php');
 ?> 
 
-<form name="cadastro" action="" method="POST" enctype="multipart/form-data">
+<form name="cadastro" action="lugares_incBD.php" method="POST" enctype="multipart/form-data">
     <table  align="center" width="70%">   
 
         <tbody>
@@ -25,29 +25,6 @@ include_once('sessao.php');
             </tr>
 
 
-            <tr>
-                <td align="right">Parada:</td>
-                <td>
-                    <?php
-                    include '../conexao.php';                    
-                    $sql = "SELECT * FROM parada;";
-                    $query = $mysqli->query($sql);
-                    $row = mysqli_num_rows($query);
-                    ?>
-                   
-                    <!-- Select Basic -->
-                            <select id="id" name="nome[]" class="form-control">
-                                <option value="nome[]x" selected="selected">
-                                <?php print_r($row);
-                                include '../conexao.php';                                 
-                                while ($row2 = mysql_fetch_assoc($row)) {
-                                    echo "<option value=$row2[id]>$row2[nome]</option>";
-                                    print_r($row);
-                                }
-                                ?></option>
-                            </select>
-                </td>
-            </tr>
             <tr>
                 <td></td>
                 <td align="right"><input type="submit" value="SALVAR"/></td>

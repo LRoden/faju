@@ -12,7 +12,6 @@
         $descricao = $dados ['descricao'];
         $localizacao = $dados ['localizacao'];
         $foto_principal = $dados ['foto_principal'];
-        $parada_id = $dados ['parada_id'];
 ?>
 <form name="cadastro" action="lugares_altBD.php?id=<?=$id;?>" method="POST" enctype="multipart/form-data">
     <table  align="center" width="70%">   
@@ -33,15 +32,6 @@
             <tr>
                 <td align="right">Foto Principal:</td>
                 <td><input type="file" name="foto_principal"  /></td>
-            </tr>
-            <tr>
-                <td align="right">Parada:</td>
-                <td>
-                    <select name="parada_id" required>
-                      <option value="<?=parada_id;?>">Primeiro</option>
-                      <option value="<?=parada_id;?>">Segundo</option>
-                      <option value="<?=parada_id;?>">Terceiro</option>
-                 </select></td>
             </tr>
             <tr>
                 <td></td>

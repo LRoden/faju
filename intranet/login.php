@@ -5,6 +5,7 @@ unset($_SESSION['us_id']);
 if($_GET['acao']=='V'){
     $login = $_POST['login'];
     $senha_login = $_POST['senha'];
+    $senha_login = md5($senha_login);
     
     include_once '../conexao.php';
     $sql = "Select cod_usuario, nome from usuario

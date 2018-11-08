@@ -6,6 +6,7 @@ include("../conexao.php");
 $usuario_nome = $_POST ['usuario_nome'];
 $usuario_login = $_POST ['usuario_login'];
 $usuario_senha = $_POST ['usuario_senha'];
+$usuario_senha = md5($usuario_senha);
 
 $id =$_GET['id'];
 //enviar dados

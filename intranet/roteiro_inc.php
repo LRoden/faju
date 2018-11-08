@@ -1,7 +1,7 @@
 <?php
     include_once('sessao.php');
 ?> 
-<form name="cadastro" action="roteiro_altBD.php?id=<?=$id;?>" method="POST" enctype="multipart/form-data">
+<form name="cadastro" action="roteiro_altBD.php" method="POST" enctype="multipart/form-data">
     <table  align="center" width="70%">   
         <tbody>
             <tr>

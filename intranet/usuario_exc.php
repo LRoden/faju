@@ -7,7 +7,7 @@ $cod = $_GET['id'];
 
 //Instrucao sql
 
-$sql = "Delete from usuarios where cod_usuario = $cod;";
+$sql = "Delete from usuario where cod_usuario = $cod;";
 
 //executa
 
