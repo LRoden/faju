@@ -10,7 +10,6 @@
         $titulo = $dados ['titulo'];
         $descricao_inicio = $dados ['descricao_inicio'];
         $foto_principal = $dados ['foto_principal'];
-        $empresa_id = $dados ['empresa_id'];
 ?>
 <form name="cadastro" action="roteiro_altBD.php?id=<?=$id;?>" method="POST" enctype="multipart/form-data">
     <table  align="center" width="70%">   

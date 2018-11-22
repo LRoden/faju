@@ -23,7 +23,6 @@
                 $titulo = $dados ['titulo'];
                 $descricao_inicio = $dados ['descricao_inicio'];
                 $foto_principal = $dados ['foto_principal'];
-                $empresa_id = $dados ['empresa_id'];
         ?>  
         <tr>
             <td class="col1"> <a href="index.php?url=rot_alt&id=<?=$cod; ?>"><img src="img/editar.png" width="30px" title="Editar"></a> <a href="roteiro_exc.php?id=<?=$cod; ?>"onclick="return excluir('<?=$nome;?>');"><img src="img/excluir.png" width="35px" title="Exluir"></a></td>

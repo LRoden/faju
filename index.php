@@ -33,7 +33,8 @@
     background-image: url(upload/imagem/<?= $imagem_fundo; ?>);
     }
 </style>
-  </head>
+  
+</head>
 
   <body>
     <?php
@@ -51,12 +52,12 @@
             case 'gal5': include('gal5.php'); break;
             case 'gal6': include('gal6.php'); break;
             case 'roteiros': include('roteiros.php'); break;
-            case 'rot1': include('roteiro1.php'); break;
-            case 'rot2': include('roteiro2.php'); break;
-            case 'rot3': include('roteiro3.php'); break;
-            case 'rot4': include('roteiro4.php'); break;
-            case 'rot5': include('roteiro5.php'); break;
-            case 'rot6': include('roteiro6.php'); break;
+            case 'rot1': include('roteiro.php'); break;
+            case 'rot2': include('roteiro.php'); break;
+            case 'rot3': include('roteiro.php'); break;
+            case 'rot4': include('roteiro.php'); break;
+            case 'rot5': include('roteiro.php'); break;
+            case 'rot6': include('roteiro.php'); break;
             case 'contato': include('contato.php'); break;
             default: include('inicial.php');
         }
