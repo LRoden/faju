@@ -53,7 +53,7 @@
             case 'gal6': include('gal6.php'); break;
             case 'roteiros': include('roteiros.php'); break;
             case 'rot1': include('roteiro.php'); break;
-            case 'rot2': include('roteiro.php'); break;
+            case 'rot2': include('roteiro_1.php'); break;
             case 'rot3': include('roteiro.php'); break;
             case 'rot4': include('roteiro.php'); break;
             case 'rot5': include('roteiro.php'); break;

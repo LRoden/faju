@@ -38,7 +38,7 @@ $query = $mysqli->query($sqli);
                             if ($count2 % 2 != 0) {
                                 //Par
                                 ?>
-                                <li>
+                                <li class="timeline-image">
                                     <div class="timeline-image">
                                         <img class="rounded-circle img-fluid" src="upload/lugar/<?php $q['foto_principal'] ?>" alt="">
                                     </div>
@@ -54,7 +54,31 @@ $query = $mysqli->query($sqli);
                                             </div>
                                         </div>
                                     </div>
+                                    
+                                    
+<!--                                     <li class="timeline-inverted"> 
+                                <div class="timeline-image"> 
+                                    <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt=""> 
+                                </div> 
+                                <div class="timeline-panel"> 
+                                    <div class="intro-text left-0 bg-faded p-3 rounded">     
+                                        <div class="timeline-heading"> 
+                                            <h4></h4> 
+                                            <h4 class="subheading"> Igreja e Santuário em Linha Popi</h4> 
+                                        </div> 
+                                        <div class="timeline-body"> 
+                                            <p class="text-muted">Esta é a única Igreja em madeira, com duas torres, edificada em enxaimel, revestida com tábuas, da América Latina.</p> 
+                                        </div> 
+                                    </div>     
+                                </div> 
+                            </li> -->
+                            
+                            
+                            
                                 </li>
+                                
+                                
+                                
 
                                 <?php
                             } else {
