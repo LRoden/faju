@@ -55,7 +55,7 @@ include_once('sessao.php');
                                         break;
                                     case 'usu': echo 'Usuarios';
                                         break;
-                                    case 'gal': echo 'Fotos';
+                                    case 'gal': echo 'Galeria';
                                         break;
                                     case 'lug': echo 'Lugares';
                                         break;
@@ -167,7 +167,7 @@ include_once('sessao.php');
                         <ul class="contact">
                             <li><a href="?url=ini"> <i class="fas fa-home"></i> Home</a></li>
                             <li><a href="?url=qm_alt"> <i class="fas fa-archway"></i> Empresa</a></li> 
-                            <li><a href="?url=gal"> <i class="fas fa-images"></i> Fotos</a></li>
+                            <li><a href="?url=gal"> <i class="fas fa-images"></i> Galeria</a></li>
                             <li><a href="?url=lug"> <i class="fas fa-bus"></i> Lugares</a></li>
                             <li> <a href="?url=rot"> <i class="fas fa-clipboard-list"></i> Roteiros</a></li>
                             <li><a href="?url=rot_lug"> <i class="fas fa-map-marked-alt"></i> Definir roteiros</a></li>

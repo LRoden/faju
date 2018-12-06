@@ -14,15 +14,16 @@
     <tbody>
         <?php
             include ('../conexao.php');
-             $sql = "Select id,roteiro_id,lugares_id,parada_id "
-                    . " from roteiro_lugares";
+            $sql = "SELECT roteiro_lugares.id,  roteiro.titulo as roteiro, lugares.nome as lugares, parada.nome as parada FROM roteiro_lugares, roteiro, lugares, parada WHERE roteiro_lugares.roteiro_id = roteiro.id AND roteiro_lugares.lugares_id = lugares.id AND roteiro_lugares.parada_id = parada.id";
+        
+
             $query = $mysqli->query($sql);
             $num_reg = $query-> num_rows;//retorna numero de registros, contador
             while($dados = $query->fetch_array()){  //while comando de repetição que repete todo o html tambem
                 $cod= $dados ['id'];
-                $roteiro_id = $dados ['roteiro_id'];
-                $lugares_id = $dados ['lugares_id'];
-                $parada_id = $dados ['parada_id'];
+                $roteiro_id = $dados ['roteiro'];
+                $lugares_id = $dados ['lugares'];
+                $parada_id = $dados ['parada'];
         ?>  
         <tr>
             <td class="col1"> <a href="index.php?url=rot_lug_alt&id=<?=$cod; ?>"><img src="img/editar.png" width="30px" title="Editar"></a> <a href="roteiro_lugares_exc.php?id=<?=$cod; ?>"onclick="return excluir('<?=$nome;?>');"><img src="img/excluir.png" width="35px" title="Exluir"></a></td>

@@ -20,7 +20,7 @@ include_once('sessao.php');
                 <td><input type="text" name="localizacao" value="" required/></td>
             </tr> 
             <tr>
-                <td align="right">Foto Principal:</td>
+                <td align="right">Foto Principal (200px X 200px):</td>
                 <td><input type="file" name="foto_principal"  /></td>
             </tr>
 
